@@ -46,7 +46,7 @@ const Filemanager = ({ onClose, thrash, finder }) => {
         <div className='flex gap-1 ml-4 pt-4'>
           <div className='cursor-pointer bg-red-400 w-6 h-6 rounded-full border border-neutral-400'>
             <img
-              src="src/assets/RedClose.svg"
+              src="/RedClose.svg"
               alt=""
               className='w-6 h-6 opacity-0 hover:opacity-100'
               onClick={handleMinimize}
@@ -54,7 +54,7 @@ const Filemanager = ({ onClose, thrash, finder }) => {
           </div>
           <div className='cursor-pointer bg-yellow-400 w-6 h-6 rounded-full border border-neutral-400'>
             <img
-              src="src/assets/YellowMinimize.svg"
+              src="/YellowMinimize.svg"
               alt=""
               className='w-6 h-6 opacity-0 hover:opacity-100'
               onClick={handleMinimize}
@@ -62,7 +62,7 @@ const Filemanager = ({ onClose, thrash, finder }) => {
           </div>
           <div className='cursor-pointer bg-green-700 w-6 h-6 rounded-full border border-neutral-400'>
             <img
-              src="src/assets/GreenFullScreen.svg"
+              src="/GreenFullScreen.svg"
               alt=""
               className='w-6 h-6 opacity-0 hover:opacity-100'
             />
@@ -77,17 +77,17 @@ const Filemanager = ({ onClose, thrash, finder }) => {
                 <p>Favourites</p>
               </div>
               <div className={`flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden  ${activeDiv === 1 ? 'bg-stone-300 scale-105 rounded' : 'white'} `} onClick={() => { setActiveDiv(1); setWindowName('Top Projects') }} >
-                <img src="src/assets/TopProjects.svg" alt="" />
+                <img src="/TopProjects.svg" alt="" />
                 <p>Top Projects</p>
               </div>
 
               <div className={`flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden ${activeDiv === 2 ? 'bg-stone-300 scale-105 rounded' : 'white'} `} onClick={() => { setActiveDiv(2); setWindowName('Recent Projects') }} >
-                <img src="src/assets/RecentProjects.svg" alt="" />
+                <img src="/RecentProjects.svg" alt="" />
                 <p>Recent Projects</p>
               </div>
 
               <div className={`h-9 flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden ${activeDiv === 3 ? 'bg-stone-300 scale-105 rounded' : 'white'} `} onClick={() => { setActiveDiv(3); setWindowName('Company Projects') }} >
-                <img src="src/assets/CompanyProjects.svg" alt="" className='w-6 h-5 ' />
+                <img src="/CompanyProjects.svg" alt="" className='w-6 h-5 ' />
                 <p>Company Projects</p>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Filemanager = ({ onClose, thrash, finder }) => {
                 <p>About me</p>
               </div>
               <div className={`h-9 flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden ${activeDiv === 5 ? 'bg-stone-300 scale-105 rounded' : 'white'} `} onClick={() => { setActiveDiv(5); setWindowName('Introduction') }} >
-                <img src="src/assets/Info.svg" alt="" className='w-6 h-5' />
+                <img src="/Info.svg" alt="" className='w-6 h-5' />
                 <p>Introduction</p>
               </div>
             </div>) : null}
@@ -110,7 +110,7 @@ const Filemanager = ({ onClose, thrash, finder }) => {
                 <p>Recycle Bin</p>
               </div>
               <div className={`h-9 flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden ${activeDiv === 4 ? 'bg-stone-300 scale-105 rounded' : 'white'} `} onClick={() => { setActiveDiv(4); setWindowName('Thrash') }} >
-                <img src="src/assets/Thrash.svg" alt="" className='w-6 h-5' />
+                <img src="/Thrash.svg" alt="" className='w-6 h-5' />
                 <p>Thrash</p>
               </div>
             </div>) : null}
@@ -122,8 +122,8 @@ const Filemanager = ({ onClose, thrash, finder }) => {
 
         <div className='flex ml-4 '>
           <div className='flex gap-11 mr-8 items-center justify-center' >
-            <img src="src/assets/LeftChevron.svg" alt="" />
-            <img src="src/assets/RightChevron.svg" alt="" />
+            <img src="/LeftChevron.svg" alt="" />
+            <img src="/RightChevron.svg" alt="" />
           </div>
           <div className='text-xl'>
             <p>{windowName}</p>

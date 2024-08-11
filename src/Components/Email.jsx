@@ -48,7 +48,7 @@ const Chat = () => {
   return (
     <div className="flex flex-col bg-gray-100 h-screen">
       <div className='flex items-center bg-[#F4F5F5] border-b border-gray-200 p-4'>
-        <img src="src/assets/Email.svg" alt="Contact logo" className='h-8 w-auto' />
+        <img src="/Email.svg" alt="Contact logo" className='h-8 w-auto' />
         <p className='text-2xl font-semibold ml-4'>Chat with us</p>
       </div>
       <div className="flex-1 overflow-auto p-4 flex flex-col">

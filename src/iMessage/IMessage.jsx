@@ -28,7 +28,7 @@ const IMessage = ({ onClose }) => {
         <div className='flex gap-1 ml-4 pt-4'>
           <div className='cursor-pointer bg-red-400 w-6 h-6 rounded-full border border-neutral-400'>
             <img
-              src="src/assets/RedClose.svg"
+              src="/RedClose.svg"
               alt=""
               className='w-6 h-6 opacity-0 hover:opacity-100'
               onClick={handleMinimize}
@@ -36,7 +36,7 @@ const IMessage = ({ onClose }) => {
           </div>
           <div className='cursor-pointer bg-yellow-400 w-6 h-6 rounded-full border border-neutral-400'>
             <img
-              src="src/assets/YellowMinimize.svg"
+              src="/YellowMinimize.svg"
               alt=""
               className='w-6 h-6 opacity-0 hover:opacity-100'
               onClick={handleMinimize}
@@ -44,7 +44,7 @@ const IMessage = ({ onClose }) => {
           </div>
           <div className='cursor-pointer bg-green-700 w-6 h-6 rounded-full border border-neutral-400'>
             <img
-              src="src/assets/GreenFullScreen.svg"
+              src="/GreenFullScreen.svg"
               alt=""
               className='w-6 h-6 opacity-0 hover:opacity-100'
             />
@@ -102,7 +102,7 @@ const IMessage = ({ onClose }) => {
               </div>
 
               <div className={`flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden  ${activeDiv === 1 ? 'bg-stone-300 scale-105 rounded-lg' : 'white'} `} onClick={() => { setActiveDiv(1); setWindowName('Github') }} >
-                <img src="src/assets/Github.svg" alt="" className='w-10' />
+                <img src="/Github.svg" alt="" className='w-10' />
                 <div>
                   <p className='text-lg'>Github</p>
                   <p className='text-sm' >Turning ideas into code reality!</p>
@@ -110,7 +110,7 @@ const IMessage = ({ onClose }) => {
               </div>
 
               <div className={`flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden  ${activeDiv === 2 ? 'bg-stone-300 scale-105 rounded-lg' : 'white'} `} onClick={() => { setActiveDiv(2); setWindowName('Linkedin') }} >
-                <img src="src/assets/Linkedin.svg" alt="" className='w-10' />
+                <img src="/Linkedin.svg" alt="" className='w-10' />
                 <div>
                   <p className='text-lg' >LinkedIn</p>
                   <p className='text-sm' >Shaping the future with digital innovation.</p>
@@ -118,7 +118,7 @@ const IMessage = ({ onClose }) => {
               </div>
 
               <div className={`flex items-center justify-start w-full py-1 px-4 gap-2 cursor-pointer transition-transform duration-300 overflow-hidden  ${activeDiv === 3 ? 'bg-stone-300 scale-105 rounded-lg' : 'white'} `} onClick={() => { setActiveDiv(3); setWindowName('Email') }} >
-                <img src="src/assets/Email.svg" alt="" className='w-10' />
+                <img src="/Email.svg" alt="" className='w-10' />
                 <div>
                   <p className='text-lg'>Email</p>
                   <p className='text-sm' >Connect me via email!</p>

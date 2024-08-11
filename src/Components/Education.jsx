@@ -20,7 +20,7 @@ const TextEditor = () => {
           <div className='flex gap-1 ml-1 items-center '>
             <div className='cursor-pointer bg-red-400 rounded-full border border-neutral-400'>
               <img
-                src="src/assets/RedClose.svg"
+                src="/RedClose.svg"
                 alt=""
                 className='w-6 h-6 opacity-0 hover:opacity-100'
                 onClick={handleMinimize}
@@ -28,7 +28,7 @@ const TextEditor = () => {
             </div>
             <div className='cursor-pointer bg-yellow-400 w-6 h-6 rounded-full border border-neutral-400'>
               <img
-                src="src/assets/YellowMinimize.svg"
+                src="/YellowMinimize.svg"
                 alt=""
                 className='w-6 h-6 opacity-0 hover:opacity-100'
                 onClick={handleMinimize}
@@ -36,14 +36,14 @@ const TextEditor = () => {
             </div>
             <div className='cursor-pointer bg-green-700 w-6 h-6 rounded-full border border-neutral-400'>
               <img
-                src="src/assets/GreenFullScreen.svg"
+                src="/GreenFullScreen.svg"
                 alt=""
                 className='w-6 h-6 opacity-0 hover:opacity-100'
               />
             </div>
           </div>
           <div className='flex items-center gap-2 justify-center ' >
-            <img src="src/assets/EmptyFile.svg" alt="" />
+            <img src="/EmptyFile.svg" alt="" />
             <p>education.txt</p>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Folder = ({ link, appName }) => {
     <>
       <div onClick={() => setShowWeb(!showWeb)}>
         <div className='flex flex-col items-center justify-center cursor-pointer hover:bg-zinc-200 active:bg-zinc-300 transition-all ease-linear px-3 pb-1 rounded-lg active:scale-90 duration-100'>
-          <img src="src/assets/Folder.svg" alt="" className='w-24' />
+          <img src="/Folder.svg" alt="" className='w-24' />
           <p>{appName}</p>
         </div>
       </div>

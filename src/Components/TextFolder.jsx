@@ -8,7 +8,7 @@ const TextFolder = ({ link, appName }) => {
   return (
     <>
       <div className='flex flex-col items-center justify-center cursor-pointer hover:bg-zinc-200 active:bg-zinc-300 transition-all ease-linear px-3 pb-1 rounded-lg active:scale-90 duration-100' onClick={() => setTextFileOpen(!textFileOpen)} >
-        <img src="src/assets/TextFile.svg" alt="" className='w-24' />
+        <img src="/TextFile.svg" alt="" className='w-24' />
         <p>{appName}</p>
       </div>
 

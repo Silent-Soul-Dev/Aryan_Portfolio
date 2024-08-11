@@ -30,7 +30,7 @@ const Linkedin = () => {
   return (
     <div className="flex flex-col bg-gray-100 h-full">
       <div className='flex items-center bg-[#F4F5F5] border-b border-gray-200 p-4'>
-        <img src="src/assets/Linkedin.svg" alt="Linkedin logo" className='h-8 w-auto' />
+        <img src="/Linkedin.svg" alt="Linkedin logo" className='h-8 w-auto' />
         <p className='text-2xl font-semibold ml-4'>Linkedin</p>
       </div>
       <div className="flex-1 overflow-auto p-4 flex flex-col">

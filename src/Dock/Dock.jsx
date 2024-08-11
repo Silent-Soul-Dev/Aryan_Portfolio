@@ -66,7 +66,7 @@ const Dock = () => {
         <button className='dock-icon w-20 transition-transform duration-300 ease-in-out transform hover:-translate-y-2 active:scale-110 active-translate-y-0'
           onDoubleClick={() => handleIconDoubleClick(setShowSettings)}
           onClick={() => handleIconClick(setShowSettings)}>
-          <img src="src/assets/Settings.png" alt="" />
+          <img src="/Settings.png" alt="" />
         </button>
 
         {/* Finder Button */}
@@ -75,14 +75,14 @@ const Dock = () => {
           onDoubleClick={() => handleIconDoubleClick(setShowFinder)}
           onClick={() => handleIconClick(setShowFinder)}
         >
-          <img src="src/assets/Finder.png" alt="" />
+          <img src="/Finder.png" alt="" />
         </button>
 
         {/* iMessage Button */}
         <button className='dock-icon w-20 cursor-pointer transition-transform duration-300 ease-in-out transform hover:-translate-y-2 active:scale-110 active-translate-y-0'
           onDoubleClick={() => handleIconDoubleClick(setShowiMessage)}
           onClick={() => handleIconClick(setShowiMessage)}>
-          <img src="src/assets/iMessage.png" alt="" />
+          <img src="/iMessage.png" alt="" />
         </button>
 
         <span className="h-16 w-px my-2 bg-slate-200"></span>
@@ -93,7 +93,7 @@ const Dock = () => {
           onDoubleClick={() => handleIconDoubleClick(setShowFileManager)}
           onClick={() => handleIconClick(setShowFileManager)}
         >
-          <img src="src/assets/Files.png" alt="" />
+          <img src="/Files.png" alt="" />
         </button>
 
         {/* Thrash Icon */}
@@ -102,7 +102,7 @@ const Dock = () => {
           onDoubleClick={() => handleIconDoubleClick(setShowThrash)}
           onClick={() => handleIconClick(setShowThrash)}
         >
-          <img src="src/assets/Thrash.png" alt="" />
+          <img src="/Thrash.png" alt="" />
         </button>
       </div>
     </>
