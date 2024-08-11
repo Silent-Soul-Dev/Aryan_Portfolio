@@ -1,0 +1,21 @@
+
+.dock-icon {
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+/* Styles for the images inside dock icons */
+.dock-image {
+  @apply w-12 h-12 transition-transform duration-300 ease-in-out;
+}
+
+/* Hover effect for the icon */
+.dock-icon:hover .dock-image {
+  @apply transform scale-150 -translate-y-4;
+}
+
+/* Styles for adjacent icons when one is hovered */
+.dock-icon:hover ~ .dock-icon .dock-image,
+.dock-icon:hover ~ span ~ .dock-icon .dock-image,
+.dock-icon:hover ~ .dock-icon ~ span ~ .dock-icon .dock-image {
+  @apply transform scale-125 -translate-y-2;
+}

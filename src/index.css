@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  @apply bg-cover bg-center bg-no-repeat ;
+  background-image: url('/bg.jpg');
+  width: 100vw;
+  height: 100vh;
+}
+
+textarea{
+  white-space: pre-wrap;
+}
+
+/* Custom CSS for pseudo-elements */
+.bubble-tail-send::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -7px;
+  width: 20px;
+  height: 20px;
+  background-color: #0B93F6; /* Send background color */
+  border-radius: 0 0 0 50%;
+}
+
+.bubble-tail-receive::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -7px;
+  width: 20px;
+  height: 20px;
+  background-color: #E5E5EA; /* Receive background color */
+  border-radius: 0 0 50% 0;
+}
